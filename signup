@@ -1,0 +1,101 @@
+<html>	
+	<head> 
+		<title>Google Sign up Page</title>
+	</head>
+	<body>
+		<div id="header" >
+			<h3 style=" font-size: 40px; margin-top: 0px; padding-left: 40px; padding-top: 15px; "><font color="blue">G</font><font color="red">o</font><font color="yellow">o</font><font color="blue">g</font><font color="green">l</font><font color="red">e</font>
+			<button id="button"> Sign in </button>
+		</div>
+		<h1 style=" text-align:Center;">Create your Google Account</h1>	
+		<div  style=" text-align:Center;">
+                    <p style=" font-family: sans-serif; font-size: 20px;">One Account is all your need.<br></p><p>One free account gets you into everything google.</p>
+                    <p>Take it all with you.<br></p>		
+		</div>
+		<div id="background" style=" background: #f1f1f1 ;" >
+			<br>
+			<form id="form">
+				Name:<br>
+				<input  id="name" type="text" name="fname" value="First" /> <input id="na" type="text" name="lname" value="Last" ><br><br>
+				Choose your User Name<br>
+				<input id="info" type="email" name="email" value="@gmail.com" ><br>
+				Create a Password<br>
+				<input id="info" type="password" name="password" value="" ><br>
+				Confirm your Password<br>
+				<input id="info" type="password" name="password" value="" ><br>
+				Brithday<br>
+				<input id="day" type="text" name="day" value="day" >
+				  <select>
+					<option value="januray">januray</option>
+					<option value="febraary">Feburary</option>
+					<option value="march">March</option>
+					<option value="April">April</option>
+					<option value="may">May</option>
+					<option value="june">June</option>
+					<option value="July">July</option>
+					<option value="August">August</option>
+					<option value="September">September</option>
+					<option value="October">October</option>
+					<option value="November">November</option>
+					<option value="december">December</option>
+				  </select>
+				  <input id="year" type="text" name="year" value="year" ><br><br>
+				<b>Gender</b><br>		
+				 <select style="width: 300px; background-color: #e2e3e7;">
+					<option value="Male">male</option>
+					<option value="female">female</option>
+					<option value="others">others</option>
+				  </select><br><br>
+				  Mobile No.<br>
+				<input id="mob" type="text" name="mob" value="+92" ><br><br>
+				Your Current Email Address:<br>
+				<input id="curemail" type="email" name="curemail" ><br>
+				<br><b>Location</b><br><input value="" type="text" style="width: 300px;"><br><br>
+				<input  type="Submit" name="Submit" value="Sign up" ><br>
+			</form>
+		</div>
+		<style>
+			#header{
+				background: #e2e3e7;
+				height:100px;
+				width:100%;
+			}
+			#button{
+				margin-top: 5px;
+				background: #1E90FF;
+				height:30px;
+				width:65px;
+				border-radius: 5px;
+				border:none;
+				float:right;
+				margin: 35px 40px 0px 0px;
+				}
+			#background{
+				height: 600px;
+				width: 350px;
+				float: right;
+				margin-right:100px;
+			}	
+			#name{
+				margin-top: 10px 0 10px 0 ;
+				width: 150px;	
+			}
+			#form{
+				margin-left:10px;
+			}	
+			#info{
+				width :200px;;
+				margin: 10px 0 10px 0 ;
+			}	
+			#month{
+			width: 100px;
+			}
+			#day{
+				width: 50px;
+			}
+			#year{
+				width: 50px;	
+			}
+		</style>	
+	</body>
+</html>
